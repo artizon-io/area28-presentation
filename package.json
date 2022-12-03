@@ -1,0 +1,13 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:desktop-app-frameworks": "reveal-md desktop-app-frameworks.md --theme black --highlight-theme atom-one-dark -w",
+    "dev:qml-ui-component": "reveal-md qml-ui-component.md --theme black --highlight-theme atom-one-dark -w"
+  },
+  "dependencies": {
+    "reveal-md": "^5.3.4"
+  }
+}
