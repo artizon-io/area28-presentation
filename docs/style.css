@@ -1,0 +1,27 @@
+body {
+  background-color: #171717;
+}
+
+* {
+  font-family: 'Arial';
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container > h1 {
+  font-size: 45px;
+  color: rgb(233, 233, 233);
+}
+
+#container > a {
+  font-size: 22px;
+  color: rgb(68, 194, 225);
+  text-decoration: none;
+}

@@ -6,8 +6,9 @@
   "scripts": {
     "dev:desktop-app-frameworks": "reveal-md desktop-app-frameworks.md --theme black --highlight-theme atom-one-dark -w",
     "pdf:desktop-app-frameworks": "reveal-md desktop-app-frameworks.md --print desktop-app-frameworks.pdf --theme black --highlight-theme atom-one-dark",
-    "build:desktop-app-frameworks": "reveal-md desktop-app-frameworks.md --static docs/ --static-dirs=assets --theme black --highlight-theme atom-one-dark",
-    "dev:qml-ui-component": "reveal-md qml-ui-component.md --theme black --highlight-theme atom-one-dark -w"
+    "build:desktop-app-frameworks": "reveal-md desktop-app-frameworks.md --static docs/desktop-app-frameworks/ --static-dirs=assets --theme black --highlight-theme atom-one-dark",
+    "dev:qml-ui-component": "reveal-md qml-ui-component.md --theme black --highlight-theme atom-one-dark -w",
+    "build:qml-ui-component": "reveal-md qml-ui-component.md --static docs/qml-ui-component/ --static-dirs=assets --theme black --highlight-theme atom-one-dark"
   },
   "dependencies": {
     "reveal-md": "^5.3.4"
